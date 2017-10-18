@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.sort-links {
+    padding-bottom: 40px;
+}
+.sort-link {
+  display: inline-block;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.sort-link img {
+  width: auto;
+  height: 100%;
+  margin-left: -20px;
+}
+
